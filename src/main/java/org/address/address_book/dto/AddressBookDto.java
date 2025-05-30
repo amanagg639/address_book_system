@@ -21,6 +21,6 @@ public class AddressBookDto {
     @NotBlank
     private String city;
 
-    @NotBlank
+    @NotNull
     private int phone_number;
 }
