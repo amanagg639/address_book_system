@@ -48,4 +48,9 @@ public class AddressBookController {
         addressBookService.deleteData(addressId);
         return ResponseEntity.ok("Deleted");
     }
+
+    @GetMapping("/change")
+    public String change() {
+        return "change";
+    }
 }
