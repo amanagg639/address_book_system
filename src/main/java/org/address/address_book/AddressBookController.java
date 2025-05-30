@@ -53,4 +53,14 @@ public class AddressBookController {
     public String change() {
         return "change";
     }
+
+    @GetMapping("/change2")
+    public String change2() {
+        return "change2";
+    }
+
+    @GetMapping("/change3")
+    public String change3() {
+        return "change3";
+    }
 }
